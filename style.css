@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200;1,300&display=swap');
+*{
+
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+.navbar{
+
+	background-color: #7ee8fa;
+    background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+}
+.fas{
+
+	color: fuchsia !important;
+	font-size: 30px;
+}
+.fas:hover{
+
+	color: purple !important;
+	font-size: 35px;
+}
+.navbar-toggler{
+
+    outline: orange !important;
+	border: 3px solid darkblue !important;
+}
+.navbar-toggler:hover{
+
+	outline: yellow !important;
+	border: 3px solid orangered !important;
+}
+.navbar-brand{
+
+	color: limegreen !important;
+	font-size: 40px;
+	font-family: 'Oswald', sans-serif; 
+	font-weight: bold;
+	text-shadow: 2px 2px 3px black;
+}
+.navbar-brand:hover{
+
+	color: yellow !important;
+	font-size: 45px;
+	text-shadow: 2px 2px 3px black;
+}
+.nav-link{
+
+	font-size: 20px;
+	color: red !important;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 3px darkgreen;
+}
+.nav-link:hover{
+
+	font-size: 25px;
+	color: darkblue !important;
+    text-shadow: 2px 2px 3px yellow;
+    border-radius: 50px;
+}
+#background{
+
+	background: url('home.jpeg');
+	background-size: cover;
+	height: 75vh;
+	width: 100%;
+	background-position: 50% 50%;
+}
+h1{
+
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	color: black !important;
+	font-weight: bold;
+	text-shadow: 2px 2px 3px yellow;
+}
+.btn{
+ 
+   color: lime !important;
+   font-size: 25px;
+   text-shadow: 2px 2px 3px black;
+   line-height: 10vh;
+}
+h2{
+
+	color: aqua !important;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+	text-shadow: 2px 2px 4px red;
+}
+p{
+
+	font-family: 'Poppins', sans-serif;
+	text-shadow: 2px 2px 3px orange;
+}
+li{
+
+	list-style: none;
+}
+
+

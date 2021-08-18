@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    color: white !important;
+    text-shadow: 2px 2px 3px black;
+    font-family: 'Poppins', sans-serif;
+}
+.fas{
+    font-size: 2rem;
+    color:yellow;
+}
+.fas:hover{
+   
+    color:lime;
+}
+.navbar-toggler{
+    outline: yellowgreen !important;
+    border: 3px solid yellowgreen !important;
+}
+.navbar-toggler:hover{
+    
+    border: 3px solid yellow !important;
+}
+.nav-link{
+
+    color: white !important;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px black;
+
+}
+.nav-link: hover{
+
+    background-color: aqua;
+    color: white;
+    border-radius: 50px;
+}
+#new{
+    background: url('dog.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+#new h1{
+
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    line-height: 30vh;
+}
+h1,h2,h3,h4,h5,h6{
+
+    font-family: 'Poppins', sans-serif;
+}
+/* Responsive background */
+
+@media (max-width: 1024px)
+{
+    #new{
+
+      background: url(dog.jpg);
+      height: 50vh;
+      width: 100%;
+      background-size: cover;
+    }
+}
+.btn{
+
+    background-color: yellow;
+    background-image: linear-gradient(315deg, #fce043 0%, #fb7ba2 74%);
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.btn:hover{
+
+    color: white;
+    background: teal;
+    border: 2px solid black;
+}
+html{
+
+    scroll-behavior: smooth;
+}
+
+/*For about*/
+#about h2{
+
+    color: aqua;
+    text-shadow: 2px 2px 3px yellow;
+    font-size: 2rem;
+}
+#about p{
+
+    font-size: 25px;
+
+}
+@media (max-width: 952px)
+{
+    #about h2{
+     
+      font-size: 20px;
+    }
+    #about p{
+   
+      font-size: 15px;
+    }
+}
+#service {
+
+    background: url('puppy.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+    color: white !important;
+    text-shadow: 2px 2px 3px gray;
+}
+@media (max-width: 952px)
+{
+
+    #service{
+
+      background: url('puppy.jpg');
+      height: 50vh;
+      width: 96%;
+      background-size: cover;
+
+    }
+}
+.col-lg h1{
+
+    color: white !important;
+    text-shadow: 2px 2px 3px black;
+}
+.footer{
+
+    background-color: yellow;
+    height: 400px;
+}
+.container h3{
+
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+.container .social-icon a{
+
+    font-size: 2rem;
+    margin: 8px;
+    background-color: black !important;
+    color: white !important;
+    height: 40px;
+    width: 40%;
+    border-radius: 50px;
+}
+.container .social-icon a{
+
+
+}
